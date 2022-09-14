@@ -50,7 +50,7 @@
     <hr>
     <br>
     <?php
-        $numero1 = 22;
+        $numero1 = 7;
         $numero2 = 22;
         
         if($numero1 > $numero2) {
@@ -58,7 +58,7 @@
             echo " - Resta: ", $numero1 - $numero2;
         } elseif($numero2 > $numero1) {
             echo "Multiplicacion: ", $numero2*$numero1;
-            echo " - Division: ", $numero2/$numero1;
+            echo " - Division: ", round($numero2/$numero1, 0);
             echo " - Resto de division: ", $numero2%$numero1;
         } else {
             echo "Los números ingresados son iguales";
