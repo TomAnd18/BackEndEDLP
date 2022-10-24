@@ -1,0 +1,82 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(215, 250, 229);
+}
+
+.tittle {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(9, 67, 224);
+}
+
+.container {
+    background-color: rgb(180, 241, 205);
+    margin-top: 10rem;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    flex-direction: column;
+    padding: 2rem;
+    color: rgb(9, 67, 224);
+}
+   
+
+.group {
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+}
+
+.group input {
+    margin: 0.2rem;
+    width: 15rem;
+    font-size: 1.2rem;
+}
+
+.group label {
+    margin: 0.2rem;
+}
+
+.btn-guardar-cancelar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-guardar-cancelar input {
+    font-size: 1.5rem;
+    border-radius: 0.4rem;
+    padding: 0.4rem 1rem;
+    background-color: cadetblue;
+    border-color: cadetblue;
+    color: #fff;
+}
+
+.btn-guardar-cancelar button {
+    font-size: 1.5rem;
+    border-radius: 0.4rem;
+    padding: 0.4rem 1rem;
+    background-color: cadetblue;
+    border-color: cadetblue;
+    color: #fff;
+}
+
+.btn-guardar-cancelar input:hover {
+    background-color: rgb(133, 194, 196);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.btn-guardar-cancelar button:hover {
+    background-color: rgb(133, 194, 196);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}

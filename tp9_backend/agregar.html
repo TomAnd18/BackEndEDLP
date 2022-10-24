@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/agregar.css">
+    <title>Agregar ropa</title>
+</head>
+<body>
+    <div class="container">
+        <div class="tittle">
+            <h1>Agregar un prenda</h1>
+        </div>
+
+        <form method="POST" action="./agregar.php" enctype="multipart/form-data">
+          
+            <div class="group">      
+                <label>Tipo</label>
+                <input type="text" name="tipo" placeholder="Ingrese tipo de prenda" required>
+            </div>
+            
+            <div class="group">      
+                <label>Marca</label>
+                <input type="text" name="marca" placeholder="Ingrese marca" required>
+            </div>
+
+            <div class="group">      
+                <label>Talle</label>
+                <input type="text" name="talle" placeholder="Ingrese talle" required>
+            </div>
+
+            <div class="group">      
+                <label>Precio</label>
+                <input type="text" name="precio" placeholder="Ingrese precio" required>
+            </div>
+          
+            <div class="group">
+                <label>Imagen</label> 
+                <input type="file" name="imagen" required>
+            </div>
+
+            <div class="btn-agregar">
+                <input type="submit" name="agregar" value="Agregar">
+            </div>
+          
+        </form> 
+    </div>
+</body>
+</html>
